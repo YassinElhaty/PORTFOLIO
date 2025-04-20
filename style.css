@@ -1,0 +1,111 @@
+*{
+    margin:0 ;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+header {
+    background-color: #090909aa;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    padding: 10px 200px ;
+}
+.logo{
+    text-decoration: none;
+    color: rgb(0, 17, 208) ;
+    font-weight: 700;
+    font-size: 25px;
+    padding-right: 50%;
+}
+.nav a{
+    color: rgb(94, 100, 158) ;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+    padding-right: 20px;
+}
+.nav a:hover{
+    color: aqua;
+}
+section{
+    padding: 100px 200px;
+}
+.main{
+    width: 100%;
+    display: flex;
+    align-items: center; 
+    display: flex;
+    background-image:url(BG.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.main h2 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+}
+.main h2 span {
+    display: inline-block;
+    margin-top: 10px;
+    color: #4e9eff;
+    font-size:50px;
+    font-weight: 600;
+}
+.main h3 {
+    color: #fff;
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.icons a {
+    color: #fff;
+    font-size: 20px;
+    padding-right: 30px;
+}
+.main-btn {
+    color: #fff;
+    background-color: #3a6cf4;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
+}
+.main-btn:hover {
+    background-color: #0a49f6;
+    transform: scale(1.1);
+}
+.title{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    color: rgba(46, 160, 160, 0.775);
+    font-size:40px;
+}
+.content{
+    flex-wrap: nowrap;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+}
+.card{
+    background-color: rgba(14, 104, 208, 0.488);
+    margin: 15px;
+    padding: 25px;
+    width: 30%;
+    transition: 0.5s ease-out;
+    box-shadow: 0 5px 25px #696666b3;
+}
+.card:hover{
+    transform: scale(1.1);
+}
